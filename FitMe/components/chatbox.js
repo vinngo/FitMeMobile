@@ -1,4 +1,4 @@
-import {StyleSheet, View, TextInput, Button, Text, FlatList, Stylesheet} from 'react-native'
+import {StyleSheet, View, TextInput, Button, Text, FlatList} from 'react-native'
 
 const messages = [
     {
