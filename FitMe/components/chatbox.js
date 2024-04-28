@@ -11,6 +11,10 @@ const messages = [
     }
 ]
 
+function sendMessage(){
+    console.log("YOU PRESSED THE BUTTON :DDDD")
+}
+
 export default function ChatBox() {
     const renderMessage = ({ item }) => (
         <View style={{ padding: 10, backgroundColor: '#8bb6a1', marginVertical: 5 }}>
@@ -28,7 +32,7 @@ export default function ChatBox() {
             </FlatList>
             <View style = {styles.messageContainer}>
                 <TextInput/>
-                <Button title = "Send"></Button>
+                <Button title = "Send" onPress={sendMessage}></Button>
     
             </View>
         </View>
