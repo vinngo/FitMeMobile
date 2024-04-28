@@ -1,12 +1,9 @@
 const OpenAI = require('openai');
-import { openaikey } from './key';
-
-
 
 export async function getResponse(){
 
     const openAi = new OpenAI({
-        apiKey: openaikey,
+        apiKey: process.env.OPENAI_API_KEY,
     })
 
     const response = await openAi.chat.completions.create({
