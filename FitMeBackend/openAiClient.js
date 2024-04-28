@@ -6,7 +6,7 @@ import { openaikey } from './key';
 export async function getResponse(){
 
     const openAi = new OpenAI({
-        apiKey: 'openaikey',
+        apiKey: openaikey,
     })
 
     const response = await openAi.chat.completions.create({
