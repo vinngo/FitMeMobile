@@ -1,0 +1,22 @@
+{
+  "name": "fitmebackend",
+  "version": "1.0.0",
+  "description": "The backend for FitMe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinngo/FitMeMobile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinngo/FitMeMobile/issues"
+  },
+  "homepage": "https://github.com/vinngo/FitMeMobile#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
