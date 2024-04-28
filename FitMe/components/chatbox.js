@@ -13,7 +13,7 @@ const messages = [
 
 export default function ChatBox() {
     const renderMessage = ({ item }) => (
-        <View style={{ padding: 10, backgroundColor: '#f0f0f0', marginVertical: 5 }}>
+        <View style={{ padding: 10, backgroundColor: '#8bb6a1', marginVertical: 5 }}>
             <Text style={{ fontWeight: 'bold' }}>{item.sender}</Text>
             <Text>{item.message}</Text>
         </View>
@@ -29,6 +29,7 @@ export default function ChatBox() {
             <View style = {styles.messageContainer}>
                 <TextInput/>
                 <Button title = "Send"></Button>
+    
             </View>
         </View>
     );
@@ -39,8 +40,8 @@ const styles = StyleSheet.create({
     },
 
     list: {
-        borderColor: 'black',
-        borderWidth: 1,
+        borderColor: '#c6c6c6',
+        borderWidth: 3,
         height: 600,
         flexGrow: 0
     },
@@ -48,8 +49,8 @@ const styles = StyleSheet.create({
     messageContainer: {
         flexDirection: 'row',
         alignItems: 'center',
-        borderColor: 'black',
-        borderWidth: 1,
+        borderColor: '#c6c6c6',
+        borderWidth: 3,
         borderRadius: 5,
         padding: 10,
         width: 300
